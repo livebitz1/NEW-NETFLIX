@@ -1,0 +1,433 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poopins', sans-serif;
+}
+
+body {
+    background-color: black;
+    overflow-x: hidden;
+    overflow-y: scroll;
+
+}
+
+.main {
+    background-image: url(Landing\ page.jfif);
+    height: 70vh;
+    background-size: max(1200px, 100vw);
+    background-position: center center;
+    position: relative;
+    background-repeat: no-repeat;
+
+}
+
+.main .box {
+    height: 70vh;
+    width: 101%;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    opacity: 0.64;
+    left: -1px;
+    
+}
+
+nav {
+    display: flex;
+    max-width: 80vw;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    height: 62px;
+
+
+}
+
+nav img {
+    color: rgb(255, 0, 0);
+    width: 179px;
+    position: relative;
+    z-index: 10;
+    bottom: -16px;
+    left: -40px;
+    animation: liveanimation 3s linear;
+
+}
+
+button {
+    position: relative;
+    z-index: 10;
+    animation: liveanimation 3s linear;
+
+
+}
+
+.woof {
+    display: flex;
+    height: calc(100% - 62px);
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    font-family: "Martel Sans", sans-serif;
+    gap: 20px;
+    padding: 0 30px;
+    
+}
+
+.woof> :nth-child(1) {
+    font-size: 48px;
+    font-weight: bold;
+
+}
+
+.woof> :nth-child(2) {
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.woof> :nth-child(3) {
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.separation {
+    height: 7px;
+    background-color: rgb(95, 95, 95);
+    opacity: 0.55;
+    animation: liveanimation 3s linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+    
+
+}
+
+.btn {
+    padding: 8px;
+    font-weight: bold;
+    animation: liveanimation 3s linear;
+
+}
+
+.btn-red-sn {
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    border: 1px;
+    animation: liveanimation 3s linear;
+
+}
+
+.btn1 {
+    background-color: black;
+    color: white;
+    opacity: 0.74;
+    left: -3px;
+    width: 70px;
+    border-radius: 5px;
+    border: 1px solid white;
+    animation: liveanimation 3s linear;
+
+}
+
+.btn-red {
+
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    border: 1px;
+    height: 47px;
+    width: 170px;
+    font-size: 23px;
+    letter-spacing: 1px;
+    font-weight: 10;
+    top: 3px;
+    left: -29px;
+    animation: liveanimation 3s linear;
+
+}
+
+.input1 {
+    background-color: black;
+    height: 40px;
+    border: 5px;
+    border: 0.1px solid rgb(130, 120, 120);
+    border-radius: 5px;
+    width: 300px;
+    position: relative;
+    left: -30px;
+    color: white;
+    opacity: 0.64;
+    padding: 2px 6px 8px 10px;
+    top: -3px;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    max-width: 70vw;
+    color: white;
+    align-items: center;
+    padding: 10px;
+
+}
+
+@media screen and (max-width:1100px) {
+    .first{
+        flex-wrap: wrap;
+    }
+}
+            
+
+.sectionimg {
+    width: 555px;
+    position: relative;
+    z-index: 10px;
+    top: 7px;
+    
+}
+.img2{
+    position: relative;
+    z-index: 10;
+   width: 555px;
+  
+}
+
+.video1 {
+    position: absolute;
+    right: 0;
+    top: 76px;
+    left: 23px;
+    height: 280px;
+    width: 555px;
+    animation: liveanimation 5s linear;
+}
+
+
+
+section.first>div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+section.first>div :first-child {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+section.first>div :nth-child(2) {
+    font-size: 24px;
+    font-weight: bolder;
+
+
+}
+
+.div1 {
+    left: 230px;
+    position: relative;
+}
+
+.video4 {
+    position: absolute;
+    top: 12px;
+    width: 400px;
+    left: 110px;
+    animation: liveanimation 5s linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+
+.image4 {
+    position: relative;
+    z-index: 20;
+    top: -6px;
+    animation: liveanimation 5s linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+
+.span6 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.span7 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+@keyframes liveanimation {
+    from {
+        opacity: 0;
+        scale: 0.5;
+
+    }
+
+    to {
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+.eleven {
+    animation: liveanimation 5s linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+
+.laastbox {
+    display: flex;
+    background-color: rgb(65, 63, 63);
+    padding: 15px;
+    max-width: 56vw;
+    margin: auto;
+    color: white;
+    justify-content: space-between;
+    cursor: pointer;
+    top: 11px;
+    position: relative;
+    font-size: 20px;
+    animation: liveanimation 5s linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 10%;
+
+}
+
+.akhri {
+    background-color: black;
+    padding: 5px;
+
+}
+
+.akhri h2 {
+    text-align: center;
+    color: white;
+    font-size: 48px;
+    animation: liveanimation 5s linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 50%;
+}
+
+.woom {
+    position: relative;
+    top: -3px;
+
+}
+
+.laastbox:hover {
+    opacity: 0.75;
+    background-color: rgb(131, 123, 123);
+    box-shadow: 0px 2px 0px white;
+}
+
+.akhrisimage {
+    animation: liveanimation 5s linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+
+.laaastbox {
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    padding: 15px;
+    max-width: 56vw;
+    margin: auto;
+    color: rgb(0, 0, 0);
+    justify-content: space-between;
+    cursor: pointer;
+    top: 11px;
+    position: relative;
+    font-size: 20px;
+    animation: liveanimation 5s linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 10%;
+}
+
+.textanimation {
+
+    animation: liveanimation 5s linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+    text-shadow: 1px 1px 7px rgb(121, 141, 19);
+}
+    
+.textanimationn{
+    animation: liveanimation 5s linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 30%;
+}
+   
+.textanimation2{
+    animation: liveanimation 5s linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 10%;
+}
+
+.textanimation4{
+    animation: liveanimation 1s linear;
+}
+.textanimationnn{
+    animation: liveanimation 5s linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+
+.frequently{
+   
+    text-shadow: 4px 3px 0px #3d3b3b, 9px 8px 0px rgba(0,0,0,0.15);
+}
+.frequently:hover{
+    text-shadow: 1px 0px 6px white;
+}
+.laastbox svg{
+filter: invert(1);
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    margin: auto;
+    max-width:60vw ;
+ 
+}
+.footer-item{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    top: 20px;
+}
+footer{
+    color: white;
+    margin: auto;
+    max-width: 60vw;
+    padding: 30px;
+}
+
+.footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    padding: 2px;          
+}
+.textanimation5{
+    
+}
+.wrap1{
+    left: 10px;
+    position: relative;
+    top: 20px;
+}
+.image4{
+    
+}
+.first span{
+    padding: 10px;
+    top: -10px;
+}
